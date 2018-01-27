@@ -1,0 +1,30 @@
+This python app is intended to leverage the Krakenex API provided by the Kraken Exchange to grab necessary data from the exchange. Additionally, this project will leverage the Matplotlib and PyQt external libraries.
+
+Requirements:
+	Data:
+	- Grab Data in an efficient and quick manner
+	- Data will be pulled automatically upon request from the source every increment of time
+	- Data can also be grabbed manually via a force refresh
+	- a limit of 20 tracking pairs can be kept to approximate max memory needed from the program.
+
+	General User Abilities:
+	- duplicate, "Open in new Window" option
+	- ability to export data to svg, txt, and images of the window exported as png, jpg.	
+	- ability to have a saved preferences XML file (or other human readable file) to maintain watchlist information.
+	- ability to set tray notifications to be alerted if a price breaks above or below a range in value or % move.
+	- ability to set multiple color schemes to fit to the users preferences.
+
+	UI:
+	- Crypto Pairings can all be individually viewed with many options as to what data can be seen:
+		- Close, Volume, OHLC table, High/Low/Opening, and historical data.
+	- Graphs can be viewed as candlestick and line charts, with customization options available.
+	- basic Graph interactions will be supported such as zooming, scrolling, and refitting.
+	- in addition to graph interactions, tools such as running averages can be drawn into the graph data with weights.
+	- a list view of all currencies' prices and 24hr move period. this can expand to show individual pairings as well.
+	- each pair from the aboves point can be clicked on to jump to that page for info.
+	- a ticker that persists on the top of the screen if the user has saved pairs. 
+	- a dashboard view for general top gainers/losers, info about saved pairs, other general info.
+	- a settings view to change preferences and themes, and manage all saved pairs in one place. 
+		- abilities include: theme management, removing individual pairs, removing all pairs, searching and adding a pair, default running averages/ graph representation styles.
+
+
